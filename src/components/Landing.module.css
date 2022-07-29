@@ -1,0 +1,30 @@
+.landing {
+    
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 83px 0;
+}
+.column1 {
+    /* width: 50%; */
+}
+@media (max-width:1200px) {
+
+}
+@media (max-width:992px) { 
+
+}
+@media (max-width:768px) { 
+    .landing { 
+        padding:100px 41px 0 ;
+    }
+
+}
+@media (max-width:576px) { 
+    .landing {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding-top: 60px;
+    }
+}

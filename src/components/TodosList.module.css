@@ -1,0 +1,29 @@
+.container {
+    width: 50%;
+    margin-top: -18px;
+}
+.container > h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.todosList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media (max-width:1200px) {
+
+}
+@media (max-width:992px) { 
+
+}
+@media (max-width:768px) { 
+
+}
+@media (max-width:576px) { 
+    .container { 
+        margin-top: 40px;
+    }
+    
+}
